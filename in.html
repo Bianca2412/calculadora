@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="  -UA-Compatible" content="IE=edge">
+<meta name="keywords" content="Site Mobile, Site Responsivo, Responsividade" />
+<title>Site Responsivo</title>
+<meta name="description" content="Site prático de Responsividade Mobile">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Ítalo Nunes">
+<link rel="stylesheet" href="in.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel= 'https://fonts.googleaps.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="icon" href="img/icon1.jpg">
+</head>
+<body>
+    <!-- CABEÇALHO --> 
+    <header class="cabecalho container">
+        <a href="index.html"><h1 class="logo"> Site Responsivo </h1></a>
+        <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="cal.html">Calculadora de café</a></li>
+            </ul>
+        </nav>          
+    </header>
+    <!-- BANNER --> 
+    <div class="banner container">
+        <div class="title">
+            <h2> Cafeteria feliz </h2>
+            <h3> Site só para funcionários! </h3>
+        </div>
+    </div>
+    <!-- SERVICOS --> 
+    <main class="servicos container">
+        <article class="servico bg-white radius">
+            <a href="#"><img src="https://www.graogourmet.com/wp-content/uploads/2017/09/colhedores-de-cafe-costa-rica-grao-gourmet-800x450.jpg" alt=""></a>
+            <div class="inner">
+                <a href="#"> Origem</a>
+                <p>O café tem uma história que remonta ao século IX, quando foi descoberto na Etiópia. Acredita-se que um pastor de cabras chamado Kaldi tenha notado que suas cabras ficavam mais enérgicas após comer grãos de café. </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="https://lifestyle.uai.com.br/wp-content/uploads/sites/9/2020/01/a0fd1f8236fad9cbc483169b3919f34a.jpg" alt=""></a>
+            <div class="inner">
+                <a href="#"> Grãos de Café  </a>
+                <p>Os grãos de café são, na verdade, as sementes da fruta chamada "cereja do café". Cada cereja geralmente contém duas sementes, que são os grãos que usamos para fazer café. </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="https://img.freepik.com/vetores-gratis/variedade-de-variedades-de-cafe_23-2148560678.jpg" alt=""></a>
+            <div class="inner">
+                <a href="#"> Variedades</a>
+                <p>Existem mais de 100 espécies de plantas de café, mas as duas mais cultivadas são a Coffea arabica (café arábica) e a Coffea canephora (café robusta). O arábica é conhecido por seu sabor mais suave, enquanto o robusta tem um sabor mais forte e contém mais cafeína. </p>
+            </div>
+        </article>
+    </main>
+ 
+    
+    <!-- JQUERY --> 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+    $(".btn-menu").click(function(){
+        $(".menu").show();
+    });
+    $(".btn-close").click(function(){
+        $(".menu").hide();
+    });
+    </script>      
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Estatística</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Café</h1>
+        <textarea id="numbers" placeholder="Digitei o número de xícaras separados por vírgula"></textarea>
+        <button onclick="calculate()">Calcular</button>
+        
+        <div class="results">
+            <h2>Resultados:</h2>
+            <p id="mean">Média: </p>
+            <p id="median">Mediana: </p>
+            <p id="mode">Moda: </p>
+        </div>
+
+        <button onclick="window.location.href='in.html'" class="back-button">Voltar para o Início</button> 
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
